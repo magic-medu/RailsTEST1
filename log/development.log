@@ -3549,3 +3549,289 @@ DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use T
 Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 4092)
 
 
+Started GET "/" for 127.0.0.1 at 2022-08-19 18:39:39 +0900
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 549)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 3790)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:40:33 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 324)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1053)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:41:56 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:42:04 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 247)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:42:05 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:43:13 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/" for ::1 at 2022-08-19 18:43:22 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/natsu/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/posts" for ::1 at 2022-08-19 18:43:30 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:25
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_22560 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:39)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_22560 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:40)
+  Rendered posts/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 8110)
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 50967)
+Completed 200 OK in 65ms (Views: 60.1ms | ActiveRecord: 1.0ms | Allocations: 52720)
+
+
+Started GET "/posts/new" for ::1 at 2022-08-19 18:43:40 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1666)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1766)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2213)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h3>スケジュール新規作成</h3>
+ 
+<%= form_with model: @post do |f| %>
+
+  <table>
+    <tr>
+      <th><%= f.label :title ,"タイトル" %></th>
+      <td><%= f.text_field :title required: true %></td>
+    </tr>
+
+    <tr>
+      <th><%= f.label :starting_date ,"開始日" %></th>
+      <td><%= f.date_field :starting_date min: Date.current %></td>
+    </tr>
+
+    <tr>
+      <th><%= f.label :ending_date ,"終了日" %></th>
+      <td><%= f.date_field :ending_date min: Date.current %></td>
+    </tr>
+
+    <tr>
+      <th><%= f.label :all_day ,"終日" %></th>
+      <td><%= f.check_box :all_day %></td>
+    </tr>
+
+    <tr>
+      <th><%= f.label :memo ,"メモ" %></th>
+      <td><%= f.text_area :memo %></td>
+    </tr>
+  </table>
+
+  <div>
+    <ul>
+      <li><%= f.submit "登録完了する"%></li>
+      <li><%= link_to "スケジュール一覧に戻る", :posts %></li>
+    </ul>
+  </div>
+  
+<% end %>
+):
+1:    <h3>スケジュール新規作成</h3>
+2:     
+3:    <%= form_with model: @post do |f| %>
+4:    
+5:      <table>
+6:        <tr>
+7:          <th><%= f.label :title ,"タイトル" %></th>
+8:          <td><%= f.text_field :title required: true %></td>
+9:        </tr>
+10:    
+11:        <tr>
+12:          <th><%= f.label :starting_date ,"開始日" %></th>
+13:          <td><%= f.date_field :starting_date min: Date.current %></td>
+14:        </tr>
+15:    
+16:        <tr>
+17:          <th><%= f.label :ending_date ,"終了日" %></th>
+18:          <td><%= f.date_field :ending_date min: Date.current %></td>
+19:        </tr>
+20:    
+21:        <tr>
+22:          <th><%= f.label :all_day ,"終日" %></th>
+23:          <td><%= f.check_box :all_day %></td>
+24:        </tr>
+25:    
+26:        <tr>
+27:          <th><%= f.label :memo ,"メモ" %></th>
+28:          <td><%= f.text_area :memo %></td>
+29:        </tr>
+30:      </table>
+31:    
+32:      <div>
+33:        <ul>
+34:          <li><%= f.submit "登録完了する"%></li>
+35:          <li><%= link_to "スケジュール一覧に戻る", :posts %></li>
+36:        </ul>
+37:      </div>
+38:      
+39:    <% end %>
+  
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:8: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/posts/new.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/posts/new" for ::1 at 2022-08-19 18:44:30 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 24.2ms | Allocations: 10674)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 13372)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 14260)
+
+
+Started GET "/posts" for ::1 at 2022-08-19 18:45:02 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:25
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_23540 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:39)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_23540 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:40)
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2066)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4324)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms | Allocations: 4729)
+
+
+Started GET "/posts/5/edit" for ::1 at 2022-08-19 18:45:04 +0900
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:26:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1701)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4056)
+Completed 200 OK in 24ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 12268)
+
+
+Started PATCH "/posts/5" for ::1 at 2022-08-19 18:45:08 +0900
+Processing by PostsController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"", "starting_date"=>"", "ending_date"=>"", "all_day"=>"1", "memo"=>""}, "commit"=>"編集を完了する", "id"=>"5"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:30:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+  [1m[36mPost Update (0.7ms)[0m  [1m[33mUPDATE "posts" SET "title" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["title", ""], ["updated_at", "2022-08-19 09:45:08.492751"], ["id", 5]]
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 13ms (ActiveRecord: 2.6ms | Allocations: 4193)
+
+
+Started GET "/posts" for ::1 at 2022-08-19 18:45:08 +0900
+Processing by PostsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:25
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_23540 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:39)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_23540 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:40)
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1605)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3959)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 4331)
+
+
+Started GET "/posts/5/edit" for ::1 at 2022-08-19 18:45:10 +0900
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:26:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1191)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3440)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 4206)
+
+
+Started GET "/posts/5/edit" for ::1 at 2022-08-19 18:46:43 +0900
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:26:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1854)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4477)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.3ms | Allocations: 5821)
+
+
+Started PATCH "/posts/5" for ::1 at 2022-08-19 18:46:55 +0900
+Processing by PostsController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"a", "starting_date"=>"", "ending_date"=>"", "all_day"=>"1", "memo"=>""}, "commit"=>"編集を完了する", "id"=>"5"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:30:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+  [1m[36mPost Update (0.6ms)[0m  [1m[33mUPDATE "posts" SET "title" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["title", "a"], ["updated_at", "2022-08-19 09:46:55.557147"], ["id", 5]]
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:31:in `update'
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 12ms (ActiveRecord: 2.0ms | Allocations: 2920)
+
+
+Started GET "/posts" for ::1 at 2022-08-19 18:46:55 +0900
+Processing by PostsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:25
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_24080 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:39)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_posts_index_html_erb__826671496160763276_24080 at /Users/natsu/Myapp2/app/views/posts/index.html.erb:40)
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1960)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4217)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 4615)
+
+

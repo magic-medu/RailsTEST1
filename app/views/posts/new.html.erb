@@ -5,17 +5,17 @@
   <table>
     <tr>
       <th><%= f.label :title ,"タイトル" %></th>
-      <td><%= f.text_field :title %></td>
+      <td><%= f.text_field :title ,required: true %></td>
     </tr>
 
     <tr>
       <th><%= f.label :starting_date ,"開始日" %></th>
-      <td><%= f.date_field :starting_date %></td>
+      <td><%= f.date_field :starting_date ,min: Date.current %></td>
     </tr>
 
     <tr>
       <th><%= f.label :ending_date ,"終了日" %></th>
-      <td><%= f.date_field :ending_date %></td>
+      <td><%= f.date_field :ending_date ,min: Date.current %></td>
     </tr>
 
     <tr>
